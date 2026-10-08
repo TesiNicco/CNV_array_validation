@@ -1,0 +1,14 @@
+{
+  "excluded_regions.hg38.original.tsv": {
+    "source_filename": "Regions_toremove_hg38_20251106_locus_annotation.txt",
+    "source_sha256": "38a9829a4c69c1bb98dc01b645766d37aef21182f3875eb4b7761a62593eca74",
+    "preparation": "Byte-for-byte copy of the exclusion list referenced by the original calling script; no coordinate edits.",
+    "declared_build": "hg38"
+  },
+  "excluded_regions.hg19.original.tsv": {
+    "source_filename": "Regions_toremove_hg38_20260107_locus_annotation_GRCh37.txt",
+    "source_sha256": "ab211697ab64625d1d31ffec81bde8b40a7d7f5eb6cf4286f008c6e99f1481c3",
+    "preparation": "Original chromStart/chromEnd columns of the existing GRCh37 table; BED start + 1 and end unchanged for inclusive PennCNV loci. Enlarged columns unused; no liftover performed.",
+    "declared_build": "hg19"
+  }
+}

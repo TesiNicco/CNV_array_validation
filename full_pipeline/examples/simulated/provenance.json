@@ -1,0 +1,15 @@
+{
+  "seed": 20261008,
+  "signals": "Independently generated random LRR and BAF; no participant signal, genotype, sample ID or call is used.",
+  "probe_metadata": "Existing array probe identifiers and coordinates are retained.",
+  "reference_files": {
+    "qc_snps.hg19.bim": {
+      "sha256": "2b6a57ba956f78e2c864454dbf8878467a14871fafbe85ed3f24f18ac6c47d49",
+      "description": "Probe names and hg19 coordinates only; unused alleles are 0/0. No participant genotypes."
+    },
+    "hg19.chr22.gc5Base.txt": {
+      "sha256": "17931ef31ec2b0bbae6a54cc9cef4cb959252dd3eefd63b11403a58d5dfbbe4e",
+      "description": "Chromosome-22 subset of UCSC hg19 GC database table; genomic reference, no participant values."
+    }
+  }
+}

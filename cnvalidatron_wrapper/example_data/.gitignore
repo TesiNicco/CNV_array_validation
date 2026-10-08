@@ -1,0 +1,4 @@
+simulated/results/
+simulated/results_*/
+__pycache__/
+after_preparation/generated/

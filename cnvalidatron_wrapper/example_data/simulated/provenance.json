@@ -1,0 +1,14 @@
+{
+  "description": "Self-contained validation-format copy of the independently generated synthetic example. No participant values. Fixed CNV inputs come from injected simulation truth, not a PennCNV run.",
+  "simulation_seed": 20261008,
+  "genome_build": "hg19",
+  "adjusted_lrr": "No GC wave correction performed: Log R Ratio Adjusted equals the raw synthetic LRR. This example does not run PennCNV.",
+  "files": {
+    "signals/simdel.tsv": "190c98ce50e1e56ef45bcb4feb71afbf43883daffb3cfacc2ed70d2fb75f1b40",
+    "signals/simnormal.tsv": "656f32ea548d141f3d4e80feceb90e3bc24cd37dde68b771e6b7db08ade41cce",
+    "signals/simdup.tsv": "5cb087a4c9894097c721b79074e99c3d1e119ea14ef44a5e9491f37358e42d73",
+    "samples.tsv": "30822f10c5d89235ee929f0ffe34cab60635800235d21dfbc30547f53570eb65",
+    "snps.tsv": "5d4baa8b3ace01d604b044656d84f8032407cbfab919d285ffc62757b499cbf0",
+    "cnvs.tsv": "565581daafdbd77b68804cf47d992383a06a35cfdc669f95de2a2f54af90370d"
+  }
+}

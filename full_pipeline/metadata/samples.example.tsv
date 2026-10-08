@@ -1,0 +1,3 @@
+sample_id	batch	signal_file
+sample001	batch_A	/path/to/sample001.txt
+sample002	batch_A	/path/to/sample002.txt

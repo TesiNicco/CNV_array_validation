@@ -1,0 +1,2 @@
+chr22:30048182-30695372 numsnp=91 length=647,191 state5,cn=3 signals/simdup.tsv startsnp=rs2245194 endsnp=GSA-rs73168603
+chr22:36002985-36377903 numsnp=59 length=374,919 state2,cn=1 signals/simdel.tsv startsnp=GSA-rs45446591 endsnp=GSA-rs118133888

@@ -1,0 +1,4 @@
+sample_ID	file_path
+simdup	signals/simdup.tsv
+simdel	signals/simdel.tsv
+simnormal	signals/simnormal.tsv

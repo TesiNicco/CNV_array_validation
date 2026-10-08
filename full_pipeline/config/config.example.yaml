@@ -1,0 +1,42 @@
+# Copy to config.yaml. Paths are relative to this file, except signal_file
+# entries in the sample manifest, which are relative to the manifest itself.
+output_dir: /path/to/a/NEW/results/directory
+samples_manifest: ../metadata/samples.tsv
+signal_genome_build: hg19
+adjust_lrr: true
+workers: 4
+
+tools:
+  # null uses the installation in the active environment's opt/ directory.
+  # Set an explicit path if setup was run with --skip-penncnv.
+  penncnv_dir: null
+  rscript: Rscript
+  # Shared validation worker used by both workflows.
+  validation_script: ../../cnvalidatron_wrapper/bin/validation_CNV.r
+
+references:
+  gc_file: /path/to/hg19.gc5Base.txt
+  gc_genome_build: hg19
+  excluded_regions: ../resources/excluded_regions.hg19.original.tsv
+  excluded_regions_genome_build: hg19
+  cnvalidatron_model: /path/to/joint.rds
+
+# One entry per array/cohort batch. A curated manifest replaces .fam-based
+# sample selection. Use qc_bim: null only to explicitly skip SNP QC filtering.
+batches:
+  batch_A:
+    qc_bim: /path/to/qc_snps.bim
+    qc_genome_build: hg19
+    # Optional sample-count and common-probe filters:
+    min_input_snps: 0
+    common_snps_only: false
+
+# Default QC thresholds; review for your study.
+qc:
+  lrr_sd: 0.3
+  baf_drift: 0.01
+  wave_factor: 0.05
+  min_snps: 10
+  min_length_bp: 50000
+  merge_fraction: 0.2
+  excluded_region_overlap: 0.5

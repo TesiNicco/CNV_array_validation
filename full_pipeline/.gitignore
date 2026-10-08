@@ -1,0 +1,13 @@
+__pycache__/
+.test-cache/
+*.pyc
+config/config.yaml
+metadata/samples.tsv
+results/
+outputs/
+
+examples/**/results*/
+
+examples/**/known_validation_results/
+
+examples/**/results/

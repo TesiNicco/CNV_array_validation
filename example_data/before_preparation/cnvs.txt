@@ -1,5 +1,0 @@
-chr7:141765556-141794376      numsnp=16     length=28,821      state1,cn=0 Input_PennCNV_GSAV1_customcontent/CNVinput.sample1 startsnp=rs113709751 endsnp=rs371597637
-chr7:150655195-150655562      numsnp=8      length=368         state1,cn=0 Input_PennCNV_GSAV1_customcontent/CNVinput.sample1 startsnp=rs794728427 endsnp=rs863224478
-chr1:17361781-17371377        numsnp=7      length=9,597       state2,cn=1 Input_PennCNV_GSAV1_customcontent/CNVinput.sample2 startsnp=rs2647158 endsnp=seq-rs74315369
-chr1:20960111-20960426        numsnp=24     length=316         state2,cn=1 Input_PennCNV_GSAV1_customcontent/CNVinput.sample2 startsnp=p.Lys24fsX54 endsnp=Gln129X
-chr1:189621757-189660368      numsnp=5      length=38,612      state2,cn=1 Input_PennCNV_GSAV1_customcontent/CNVinput.sample3 startsnp=rs115405807 endsnp=rs114547945

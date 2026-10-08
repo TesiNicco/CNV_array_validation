@@ -1,0 +1,3 @@
+sample_id	chr	simulation_start	simulation_end	first_affected_probe	last_affected_probe	CN	numsnp
+simdup	22	30000000	30700000	30048182	30695372	3	91
+simdel	22	36000000	36400000	36002985	36377903	1	59

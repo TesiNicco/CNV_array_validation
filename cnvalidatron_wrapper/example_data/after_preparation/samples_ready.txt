@@ -1,0 +1,4 @@
+sample_ID	file_path	file_path_tabix
+simdup	generated/signals/simdup.tsv	generated/signals/simdup.tsv.gz
+simdel	generated/signals/simdel.tsv	generated/signals/simdel.tsv.gz
+simnormal	generated/signals/simnormal.tsv	generated/signals/simnormal.tsv.gz
