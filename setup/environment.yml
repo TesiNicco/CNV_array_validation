@@ -1,0 +1,29 @@
+# Pipeline tools and R dependencies available through conda.
+# Run setup_environment.sh to also install PennCNV, CNValidatron and Torch's runtime.
+# This specification is not a tested lock file.
+name: penncnv-cnvalidatron
+channels:
+  - conda-forge
+  - bioconda
+  - nodefaults
+dependencies:
+  - python=3.10
+  - pandas
+  - pyyaml
+  - perl
+  - make
+  - c-compiler
+  - cxx-compiler
+  - htslib
+  - r-base
+  - r-data.table
+  - r-stringr
+  - r-argparse
+  - r-biocmanager
+  - bioconductor-biocparallel
+  - r-torch
+  - r-luz
+  - r-remotes
+  - r-ggplot2
+  - r-imager
+  - r-igraph

@@ -1,6 +1,0 @@
-sample_ID file_path file_path_tabix
-sample1	/path/to/CNVinput.sample1	/path/to/CNVinput.sample1.gz
-sample2 /path/to/CNVinput.sample2	/path/to/CNVinput.sample2.gz
-sample3 /path/to/CNVinput.sample3	/path/to/CNVinput.sample3.gz
-sample4 /path/to/CNVinput.sample4	/path/to/CNVinput.sample4.gz
-sample5 /path/to/CNVinput.sample5	/path/to/CNVinput.sample5.gz

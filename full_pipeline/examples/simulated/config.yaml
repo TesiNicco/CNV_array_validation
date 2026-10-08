@@ -1,0 +1,29 @@
+output_dir: results
+samples_manifest: samples.tsv
+signal_genome_build: hg19
+adjust_lrr: true
+workers: 2
+tools:
+  penncnv_dir: null
+  rscript: Rscript
+  validation_script: ../../../cnvalidatron_wrapper/bin/validation_CNV.r
+references:
+  gc_file: reference/hg19.chr22.gc5Base.txt
+  gc_genome_build: hg19
+  excluded_regions: ../../resources/excluded_regions.hg19.original.tsv
+  excluded_regions_genome_build: hg19
+  cnvalidatron_model: /path/to/joint.rds
+batches:
+  example:
+    qc_bim: reference/qc_snps.hg19.bim
+    qc_genome_build: hg19
+    min_input_snps: 0
+    common_snps_only: false
+qc:
+  lrr_sd: 0.3
+  baf_drift: 0.01
+  wave_factor: 0.05
+  min_snps: 10
+  min_length_bp: 50000
+  merge_fraction: 0.2
+  excluded_region_overlap: 0.5

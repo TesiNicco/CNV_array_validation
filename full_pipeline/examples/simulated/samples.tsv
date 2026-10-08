@@ -1,0 +1,4 @@
+sample_id	batch	signal_file
+simdup	example	signals/simdup.chr22.tsv
+simdel	example	signals/simdel.chr22.tsv
+simnormal	example	signals/simnormal.chr22.tsv

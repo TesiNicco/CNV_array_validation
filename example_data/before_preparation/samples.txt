@@ -1,6 +1,0 @@
-sample_ID file_path
-sample1	'/path/to/CNVinput.sample1'
-sample2 '/path/to/CNVinput.sample2'
-sample3 '/path/to/CNVinput.sample3'
-sample4 '/path/to/CNVinput.sample4'
-sample5 '/path/to/CNVinput.sample5'
